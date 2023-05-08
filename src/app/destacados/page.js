@@ -11,12 +11,13 @@ export default function Destacados() {
   return (
     <>
 			<NavBar />
-			<Tarjeta>
+			<Tarjeta borde='border-cyan-500 border-4' bg='bg-gradient-to-b from-cyan-600' >
 				<TarjetaFdp>
 					<Image src={Nizero} />
 				</TarjetaFdp>
 				<TarjetaInfo
 					user='Nic0_Mongrant'
+					rareza='Épico'
 					desc='También conocido como N. Mongrant. No solo es uno de los miembros más activos de Insomnia, sino que también es la mano derecha de Anfitrion y moderador de Insomnia. N. Mongrant construyó gran parte del lobby del servidor amistoso de Minecraft Tecla 3, y mientras Anfitrion estuvo ausente, él jugaba y le daba vida al servidor.'
 					discord='Niczero_Mongrant#3665'
 					nacion='argentino'
@@ -36,6 +37,7 @@ export default function Destacados() {
 				</TarjetaFdp>
 				<TarjetaInfo
 					user='Caian'
+					rareza='Único'
 					desc='El argentino más loco y divertido que Insomnia haya concido. Caian siempre aporta gran parte de la diversión en los canales de voz, es buen amigo y leal a Insomnia.'
 					discord='caian#6161'
 					nacion='argentino'
@@ -53,6 +55,7 @@ export default function Destacados() {
 				</TarjetaFdp>
 				<TarjetaInfo
 					user='adrianpeña'
+					rareza='Raro'
 					desc='Peruano de corazón y gran amigo de N. Mongrant. adrianpeña es muy activo y un poquito "pipipi".'
 					discord='adrianpeña#7645'
 					nacion='peruano'
@@ -62,12 +65,13 @@ export default function Destacados() {
 					<Distincion color='text-green-400 border-green-400'>Estelar Tecla 3</Distincion>
 				</TarjetaDistinciones>
 			</Tarjeta>
-			<Tarjeta>
+			<Tarjeta borde='border-emerald-400 border-4' bg='bg-gradient-to-b from-emerald-600' >
 				<TarjetaFdp>
 					<Image src={Fi}/>
 				</TarjetaFdp>
 				<TarjetaInfo
 					user='Anfitrion'
+					rareza='Legendario'
 					desc='El creador y líder de Insomnia. Anfitrion siempre trata de darles el mejor contenido posible a los miembros de esta bonita comunidad.'
 					discord='Anfitrion#0082'
 					nacion='peruano'
