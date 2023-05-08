@@ -14,6 +14,9 @@ export default function NavBar() {
             <a href='/destacados' className='block mt-4 lg:inline-block lg:mt-0 text-stone-100 hover:text-white mr-4'>
               Destacados
             </a>
+            <a href='/guias' className='block mt-4 lg:inline-block lg:mt-0 text-stone-100 hover:text-white mr-4'>
+              Guías
+            </a>
           </div>
           <div>
             <a href='https://discord.gg/m9taHt7CMw' className='block mt-4 lg:inline-block lg:mt-0 text-pink-600 hover:text-rose-500 hover:font-medium duration-700 mr-4' target='blank'>
