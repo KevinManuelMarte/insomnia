@@ -11,7 +11,30 @@ export default function Destacados() {
   return (
     <>
 			<NavBar />
-			<Tarjeta bg='bg-gradient-to-b from-cyan-400 to-cyan-700 border-4 border-cyan-300' >
+			<Tarjeta bg='emerald' >
+				<TarjetaFdp>
+					<Image src={Fi} />
+				</TarjetaFdp>
+				<TarjetaInfo
+					user='Anfitrion'
+					rareza='l'
+					desc='El creador y líder de Insomnia. Anfitrion siempre trata de darles el mejor contenido posible a los miembros de esta bonita comunidad.'
+					discord='Anfitrion#0082'
+					nacion='Peruano'
+					edad='17'
+				/>
+				<TarjetaDistinciones>
+					<Distincion tipo='1' op='s' />
+					<Distincion tipo='3' op='s' />
+					<Distincion tipo='5' op='s' />
+					<Distincion tipo='6' op='s' />
+					<Distincion tipo='7' op='s' />
+					<Distincion tipo='8' op='s' />
+					<Distincion tipo='9' op='s' />
+					<Distincion tipo='10' op='s' />
+				</TarjetaDistinciones>
+			</Tarjeta>
+			<Tarjeta bg='cyan' >
 				<TarjetaFdp>
 					<Image src={Nizero} />
 				</TarjetaFdp>
@@ -63,29 +86,6 @@ export default function Destacados() {
 				/>
 				<TarjetaDistinciones>
 					<Distincion tipo='T2' />
-				</TarjetaDistinciones>
-			</Tarjeta>
-			<Tarjeta borde='border-emerald-400 border-4' bg='bg-gradient-to-b from-emerald-400 to-emerald-700' >
-				<TarjetaFdp>
-					<Image src={Fi}/>
-				</TarjetaFdp>
-				<TarjetaInfo
-					user='Anfitrion'
-					rareza='l'
-					desc='El creador y líder de Insomnia. Anfitrion siempre trata de darles el mejor contenido posible a los miembros de esta bonita comunidad.'
-					discord='Anfitrion#0082'
-					nacion='Peruano'
-					edad='17'
-				/>
-				<TarjetaDistinciones>
-					<Distincion tipo='1' op='s' />
-					<Distincion tipo='3' op='s' />
-					<Distincion tipo='5' op='s' />
-					<Distincion tipo='6' op='s' />
-					<Distincion tipo='7' op='s' />
-					<Distincion tipo='8' op='s' />
-					<Distincion tipo='9' op='s' />
-					<Distincion tipo='10' op='s' />
 				</TarjetaDistinciones>
 			</Tarjeta>
     </>

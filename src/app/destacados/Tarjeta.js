@@ -40,7 +40,12 @@ export function TarjetaFdp(props) {
 
 export function Tarjeta(props) {
   return (
-    <div className={`grid grid-cols-12 border ${props.borde ? props.borde : `border-neutral-800`} ${props.bg} p-2 rounded-lg duration-200 text-stone-100 m-4`}>
+    <div className={`
+    grid grid-cols-12 border p-2 rounded-lg text-white m-4
+    ${props.bg == 'cyan' ? 'bg-gradient-to-b from-cyan-400 to-cyan-700 border-4 border-cyan-300' : ''}
+    ${props.bg == 'emerald' ? 'bg-gradient-to-b from-emerald-400 to-emerald-700 border-4 border-emerald-400' : ''}
+    ${props.bg ? '' : 'border-neutral-700'}
+    `}>
       {props.children}
     </div>
   )
