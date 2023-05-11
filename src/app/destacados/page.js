@@ -47,10 +47,11 @@ export default function Destacados() {
 					edad='16'
 				/>
 				<TarjetaDistinciones>
-					<Distincion tipo='1' op='s' />
 					<Distincion tipo='2' op='s' />
-					<Distincion tipo='3' op='s' />
 					<Distincion tipo='4' op='s' />
+					<Distincion tipo='8' op='s' />
+					<Distincion tipo='9' op='s' />
+					<Distincion tipo='10' op='s' />
 					<Distincion tipo='T2' op='s'/>
 				</TarjetaDistinciones>
 			</Tarjeta>
@@ -67,9 +68,9 @@ export default function Destacados() {
 					edad='14'
 				/>
 				<TarjetaDistinciones>
-					<Distincion tipo='1'/>
 					<Distincion tipo='7'/>
-					<Distincion tipo='T2'/>
+					<Distincion tipo='10' />
+					<Distincion tipo='T2' />
 				</TarjetaDistinciones>
 			</Tarjeta>
 			<Tarjeta>
