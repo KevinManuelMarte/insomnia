@@ -18,12 +18,12 @@ export default function Destacados() {
 			>
 				<Distincion tipo='1' op='s' />
 				<Distincion tipo='3' op='s' />
-				<Distincion tipo='5' op='s' />
 				<Distincion tipo='6' op='s' />
 				<Distincion tipo='7' op='s' />
 				<Distincion tipo='8' op='s' />
 				<Distincion tipo='9' op='s' />
 				<Distincion tipo='10' op='s' />
+				<Distincion tipo='11' op='s' />
 			</Tarjeta>
 			<Tarjeta
 				bg='cyan'
@@ -39,6 +39,19 @@ export default function Destacados() {
 				<Distincion tipo='4' op='s' />
 				<Distincion tipo='9' op='s' />
 				<Distincion tipo='T2' op='s' />
+				<Distincion tipo='10' op='s' />
+			</Tarjeta>
+			<Tarjeta
+				bg='red'
+				src='https://media.discordapp.net/attachments/1032516925617614878/1106262852307791892/image.png?width=458&height=458'
+				user='Lenchata'
+				rareza='e'
+				desc='Un gran donador y alguna vez administrador de Insomnia. Lenchata se encuentra actualmente inactivo.'
+				discord='Lenchata#5606'
+				nacion='Chileno'
+				edad='17'
+			>
+				<Distincion tipo='5' op='s' />
 				<Distincion tipo='10' op='s' />
 			</Tarjeta>
 			<Tarjeta
