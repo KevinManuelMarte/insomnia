@@ -52,7 +52,7 @@ export default function Destacados() {
 				edad='17'
 			>
 				<Distincion tipo='5' op='s' />
-				<Distincion tipo='10' op='s' />
+				<Distincion tipo='11' op='s' />
 			</Tarjeta>
 			<Tarjeta
 				src='https://media.discordapp.net/attachments/1032516925617614878/1106068911654453290/cian.png'
@@ -63,8 +63,8 @@ export default function Destacados() {
 				nacion='Argentino'
 				edad='14'
 			>
-				<Distincion tipo='7' />
-				<Distincion tipo='10' />
+				<Distincion tipo='8' />
+				<Distincion tipo='11' />
 				<Distincion tipo='T2' />
 			</Tarjeta>
 			<Tarjeta
