@@ -1,4 +1,4 @@
-import Distincion from './Distincion'
+import Distincion from '../Distincion'
 
 export function TarjetaDistinciones(props) {
   return (
@@ -14,7 +14,9 @@ export function TarjetaDistinciones(props) {
 export function TarjetaInfo(props) {
   return (
     <div className='col-span-7'>
-      <h1 className='text-4xl leading-relaxed font-medium'>{props.user} <Distincion>{props.rareza ? props.rareza : 'Común'}</Distincion> </h1>
+      <h1 className='text-4xl leading-relaxed font-medium'>
+        {props.user} <Distincion tipo={props.rareza} op='s' />
+      </h1>
       <p className='text-lg leading-5'>
         {props.desc}
       </p>
