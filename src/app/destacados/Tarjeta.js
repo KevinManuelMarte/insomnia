@@ -1,7 +1,7 @@
 import Distincion from '../Distincion'
 import Image from 'next/image'
 
-export function Tarjeta(props) {
+export default function Tarjeta(props) {
   return (
     <div className={`
     grid grid-cols-12 border p-2 rounded-lg text-white m-4
@@ -15,7 +15,7 @@ export function Tarjeta(props) {
       </div>
       <div className='col-span-7'>
         <h1 className='text-4xl leading-relaxed font-medium'>
-          {props.user} <Distincion tipo={props.rareza} op='s' />
+          {props.usuario} <Distincion tipo={props.rareza} op='s' />
         </h1>
         <p className='text-lg leading-5'>
           {props.desc}
