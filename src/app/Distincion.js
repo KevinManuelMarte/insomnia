@@ -2,6 +2,7 @@ export default function Distincion(props) {
   if (!props.op) {
     return (
       <span
+        key={props.key}
         className={`
         border xl:text-sm lg:text-xs text-sm rounded-full py-1 px-2 m-1
         ${props.tipo == 1 ? 'text-emerald-400 border-emerald-400' : ''}
@@ -36,7 +37,7 @@ export default function Distincion(props) {
     )
   } else {
     return (
-      <span className='border xl:text-sm lg:text-xs text-sm rounded-full py-1 px-2 m-1 text-white border-white'>
+      <span key={props.key}  className='border xl:text-sm lg:text-xs text-sm rounded-full py-1 px-2 m-1 text-white border-white'>
         {props.tipo == 1 ? 'Administrador' : null}
         {props.tipo == 2 ? 'Mano derecha' : null}
         {props.tipo == 3 ? 'Jefe moderador' : null}
