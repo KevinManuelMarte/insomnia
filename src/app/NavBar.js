@@ -1,30 +1,25 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function NavBar() {
   return (
     <>
-      <nav className='sticky top-0 z-40 w-full flex items-center justify-between flex-wrap bg-noche-900/90 backdrop-blur p-4 border-b border-noche-700/30'>
-        <div className='flex items-center flex-shrink-0 text-stone-100 mr-6 space-x-4'>
-          <img src='https://media.discordapp.net/attachments/1032516925617614878/1034170024564367370/logo4.png?width=458&height=458' width="40" height="40" />
-          <span className='font-semibold text-xl tracking-tight'>Insomnia</span>
+      <nav className='sticky top-0 bg-noche-900/90 border-b border-noche-700/30 backdrop-blur text-stone-300 p-4 flex items-center justify-between'>
+        <div className='relative flex items-center'>
+          <Link href='/' className='relative flex items-center pr-2'>
+            <Image className='' src='https://media.discordapp.net/attachments/1032516925617614878/1034170024564367370/logo4.png?width=458&height=458' height={40} width={40} quality={100} />
+            <h1 className='text-xl font-medium'>Insomnia</h1>
+          </Link>
+          <ul class="relative flex items-center gap-5 text-sm">
+            <li><Link className='hover:text-white duration-200' href='/destacados'>Destacados</Link></li>
+            <li><Link className='hover:text-white duration-200' href='/guias'>Guías</Link></li>
+            <li><Link className='hover:text-white duration-200' href='/blog'>Blog</Link></li>
+          </ul>
         </div>
-        <div className='w-full block flex-grow lg:flex lg:items-center lg:w-auto'>
-          <div className='text-sm lg:flex-grow'>
-            <Link href='/' className='block mt-4 lg:inline-block lg:mt-0 text-stone-100 hover:text-white mr-4'>
-              Inicio
-            </Link>
-            <Link href='/destacados' className='block mt-4 lg:inline-block lg:mt-0 text-stone-100 hover:text-white mr-4'>
-              Destacados
-            </Link>
-            <Link href='/guias' className='block mt-4 lg:inline-block lg:mt-0 text-stone-100 hover:text-white mr-4'>
-              Guías
-            </Link>
-          </div>
-          <div>
-            <a href='https://discord.gg/m9taHt7CMw' className='block mt-4 lg:inline-block lg:mt-0 text-pink-600 hover:text-rose-500 hover:font-medium duration-700 mr-4' target='blank'>
-              Entrar
-            </a>
-          </div>
+        <div className='relative flex items-center'>
+          <a className='bg-pink-700/30 hover:bg-pink-700/50 duration-200 px-4 py-1 rounded-full text-sm font-semibold text-pink-700 hover:text-pink-600' href='https://discord.gg/m9taHt7CMw'>
+            Entrar
+          </a>
         </div>
       </nav>
     </>
