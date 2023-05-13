@@ -15,9 +15,12 @@ export default function Tarjeta(props) {
           <Image src={props.src} height={512} width={512} alt={props.alt} quality={100} className='rounded' />
         </div>
         <div className='xl:col-span-7 lg:col-span-8 col-span-12 xl:text-left lg:text-left text-center'>
-          <h1 className='xl:text-4xl lg:text-2xl text-4xl leading-relaxed font-medium'>
-            {props.usuario} <Distincion tipo={props.rareza} op='s' />
-          </h1>
+          <div className='xl:items-center xl:flex lg:items-center lg:flex'>
+            <h1 className='xl:text-4xl lg:text-2xl text-4xl xl:leading-relaxed leading-relaxed font-medium'>
+              {props.usuario}
+            </h1>
+            <Distincion tipo={props.rareza} op='s' />
+          </div>
           <p className='xl:text-lg lg:text-sm text-xl xl:leading-5'>
             {props.desc}
           </p>
