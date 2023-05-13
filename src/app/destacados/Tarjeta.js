@@ -8,7 +8,7 @@ export default function Tarjeta(props) {
     ${props.bg == 'cyan' ? 'bg-gradient-to-b from-cyan-400 to-cyan-700 border-4 border-cyan-400' : ''}
     ${props.bg == 'emerald' ? 'bg-gradient-to-b from-emerald-400 to-emerald-700 border-4 border-emerald-400' : ''}
     ${props.bg == 'red' ? 'bg-gradient-to-b from-red-400 to-red-700 border-4 border-red-400' : ''}
-    ${props.bg ? null : 'border-rose-300/30'}
+    ${props.bg ? null : 'border-noche-700/50'}
     `}>
       <div className='col-span-2 p-2'>
         <Image src={props.src} height={512} width={512} alt={props.alt} quality={100} className='rounded' />
