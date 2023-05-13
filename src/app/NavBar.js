@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function NavBar() {
   return (
     <>
-      <nav className='flex items-center justify-between flex-wrap bg-neutral-900 p-6 border-b border-neutral-800'>
+      <nav className='sticky top-0 z-40 w-full flex items-center justify-between flex-wrap bg-neutral-900/10 backdrop-blur p-6 border-b border-rose-300/30'>
         <div className='flex items-center flex-shrink-0 text-stone-100 mr-6 space-x-4'>
           <img src='https://media.discordapp.net/attachments/1032516925617614878/1034170024564367370/logo4.png?width=458&height=458' width="40" height="40" />
           <span className='font-semibold text-xl tracking-tight'>Insomnia</span>
