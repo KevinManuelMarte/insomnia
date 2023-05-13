@@ -9,6 +9,7 @@ export default function Destacados() {
 			<NavBar />
 			{perfiles.map(perfil => (
 				<Tarjeta
+					key={perfil.usuario}
 					bg={perfil.bg}
 					src={perfil.img_src}
 					usuario={perfil.usuario}

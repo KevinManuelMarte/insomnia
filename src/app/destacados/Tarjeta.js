@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Tarjeta(props) {
   return (
-    <div className='2xl:grid grid-cols-12'>
+    <div className='2xl:grid grid-cols-12' key={props.key}>
       <div className={`
       2xl:col-span-10 2xl:col-start-2 grid grid-cols-12 border p-2 rounded-lg text-white m-4
       ${props.bg == 'cyan' ? 'bg-gradient-to-b from-cyan-400 to-cyan-700 border-4 border-cyan-400' : ''}
