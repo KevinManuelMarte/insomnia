@@ -20,7 +20,7 @@ export default function Destacados() {
 					edad={perfil.edad}
 				>
 					{perfil.distinciones.map(distinciones => (
-						<Distincion key={distinciones.distincion} tipo={distinciones.distincion} op={perfil.op} />
+						<Distincion key={perfil.usuario} tipo={distinciones.distincion} op={perfil.op} />
 					))}
 				</Tarjeta>
 			))}
