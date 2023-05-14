@@ -4,7 +4,6 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <>
-			<NavBar/>
       <div className='grid 2xl:grid-cols-4 xl:grid-cols-5 grid-cols-5 py-12 relative '>  
         <div className='xl:col-start-3 2xl:col-start-2 col-start-2 xl:col-span-1 2xl:col-span-2 col-span-3 flex place-content-center'>
           <Image src='/logo.png' width={512} height={512} alt='Logo de Insomnia' quality={100} />

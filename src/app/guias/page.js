@@ -4,7 +4,6 @@ import Carta from './Carta';
 export default function Guias() {
   return (
     <>
-      <NavBar/>
       <div className='grid grid-cols-12 mt-8'>
         <div className='col-span-2'></div>
         <Carta

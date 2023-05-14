@@ -6,7 +6,6 @@ import { perfiles } from '../Perfiles'
 export default function Destacados() {
   return (
     <>
-			<NavBar />
 			{perfiles.map(perfil => (
 				<Tarjeta
 					key={perfil.usuario}
