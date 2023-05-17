@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html className='bg-noche-900 bg-fixed' lang="en">
+    <html className='bg-gradient-to-b from-noche-900 to-ocaso-900 bg-fixed' lang="en">
       <body className='backdrop-blur-xl'>
         <NavBar/>
         {children}
