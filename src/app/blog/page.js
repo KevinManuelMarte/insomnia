@@ -2,7 +2,7 @@ import { BsXCircle, BsCheckCircle, BsMemory, BsPerson, BsCpu } from 'react-icons
 import { RxCube } from 'react-icons/rx'
 import { TbBucket } from 'react-icons/tb'
 import { BiWorld } from 'react-icons/bi'
-import Invitacion from '../../../Invitacion'
+import Invitacion from '../Invitacion'
 
 export default function Page() {
   return (
