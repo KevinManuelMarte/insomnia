@@ -1,10 +1,11 @@
+import Link from 'next/link'
 import Distincion from '../Distincion'
 import Image from 'next/image'
 
 export default function Tarjeta(props) {
   return (
     <li className="p-2" key={props.key}>
-      <div className="bg-noche-700/20 rounded-lg p-8 flex justify-between items-center flex-wrap">
+      <Link href={`/destacados/${props.usuario}`} className="bg-noche-700/20 rounded-lg p-8 flex justify-between items-center flex-wrap">
         <div className='w-5/6'>
           <div className='flex items-center'>
             <p className="text-white text-xl pr-2">{ props.usuario }</p>
@@ -18,7 +19,7 @@ export default function Tarjeta(props) {
             { props.desc }
           </p>
         </div>
-      </div>
+      </Link>
     </li>
   )
 }
