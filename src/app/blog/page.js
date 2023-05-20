@@ -3,11 +3,18 @@ import { RxCube } from 'react-icons/rx'
 import { TbBucket } from 'react-icons/tb'
 import { BiWorld } from 'react-icons/bi'
 import Invitacion from '../Invitacion'
+import { perfiles } from '../Perfiles'
+import Tarjeta from '../destacados/Tarjeta'
+
+const encargado1 = perfiles.filter(perfil => perfil.usuario === 'Anfitrion')
+const encargado2 = perfiles.filter(perfil => perfil.usuario === 'Nic0_Mongrant')
+const encargado3 = perfiles.filter(perfil => perfil.usuario === 'Caian')
+const encargados = encargado1.concat(encargado2, encargado3)
 
 export default function Page() {
   return (
     <>
-      <div className='my-8 lg:mx-32 mx-4'>
+      <div className='my-8 lg:mx-16 mx-4'>
         <div className='grid grid-cols-12'>
           <div className="col-start-5 col-span-4">
             <h1 className='text-yellow-300 text-4xl font-semibold text-center leading-relaxed'>Tecla 3</h1>
@@ -110,6 +117,24 @@ export default function Page() {
               <p className='text-white'>Canadá</p>
             </div>
           </div>
+          <div className="col-span-12">
+            <h1 className="text-2xl text-yellow-300 font-semibold text-center py-4">Personal a cargo de este servidor</h1>
+          </div>
+          {encargados.map(perfil => {
+            return (
+              <div className="xl:col-span-4 md:col-span-6 col-span-12" key={perfil.usuario}>
+                <ul className="list-none">
+                  <Tarjeta
+                    key={perfil.usuario}
+                    usuario={perfil.usuario}
+                    tipo={perfil.distincion}
+                    cargo={perfil.cargo}
+                    img_src={perfil.img_src}
+                  />
+                </ul>
+              </div>
+            )
+          })}
           <div className="md:col-start-4 md:col-span-6 col-span-12">
             <div className="py-8">
               <Invitacion />
