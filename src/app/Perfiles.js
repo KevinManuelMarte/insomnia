@@ -67,7 +67,7 @@ export const perfiles = [
   {
     columna: 1,
     bg: '',
-    img_src: 'https://media.discordapp.net/attachments/1032516925617614878/1106068911654453290/cian.png',
+    img_src: 'https://cdn.discordapp.com/avatars/700692008179859476/784a4007797c9155af662c3e851b114b.png?size=1024',
     usuario: 'Caian',
     cargo: 'Gran animador',
     distincion: 8,
@@ -86,10 +86,10 @@ export const perfiles = [
   {
     columna: 2,
     bg: '',
-    img_src: 'https://media.discordapp.net/attachments/1032516925617614878/1106068912430395452/pena.png?width=458&height=458',
+    img_src: 'https://cdn.discordapp.com/avatars/947964244882767902/55e209bd1b82dc9ccc1c0504a4e3d702.png?size=1024',
     usuario: 'adrianpeña',
     cargo: 'Usuario motivado',
-    distincion: 'r',
+    distincion: 'T2',
     rareza: 'r',
     desc: 'Peruano de corazón y gran amigo de N. Mongrant. adrianpeña es muy activo y un poquito "pipipi".',
     discord: 'adrianpeña#7645',
