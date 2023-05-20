@@ -36,7 +36,14 @@ module.exports = {
       pink: colors.pink,
       rose: colors.rose,
       'noche': {
+        100: '#e2dbf0',
+        200: '#c5b7e1',
+        300: '#a893d2',
+        400: '#8b6fc3',
+        500: '#6e4bb4',
+        600: '#583c90',
         700: '#422d6c',
+        800: '#2c1e48',
         900: '#160f24'
       },
       'ocaso': {
