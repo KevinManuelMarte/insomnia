@@ -68,10 +68,10 @@ export const perfiles = [
       { distincion: 5 },
       { distincion: 11 },
     ],
-    youtube: '',
+    youtube: 'https://www.youtube.com/@lenchata',
     reddit: '',
-    twitter: '',
-    github: ''
+    twitter: 'https://twitter.com/loren_pezo',
+    github: 'https://github.com/Lenchata'
   },
   {
     columna: 1,
@@ -91,7 +91,7 @@ export const perfiles = [
       { distincion: 11 },
       { distincion: 'T2' },
     ],
-    youtube: '',
+    youtube: 'https://www.youtube.com/@caianthegamer',
     reddit: '',
     twitter: '',
     github: ''
