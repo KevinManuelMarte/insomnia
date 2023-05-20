@@ -23,7 +23,10 @@ export const perfiles = [
       { distincion: 10 },
       { distincion: 11 },
     ],
-    op: 's'
+    youtube: 'https://www.youtube.com/@anfitrion222',
+    reddit: 'https://www.reddit.com/user/Anfitrion_',
+    twitter: 'https://twitter.com/AnfitrionOut',
+    github: 'https://github.com/aAnfitrion'
   },
   {
     columna: 2,
@@ -44,7 +47,10 @@ export const perfiles = [
       { distincion: 10 },
       { distincion: 'T2' },
     ],
-    op: 's'
+    youtube: '',
+    reddit: '',
+    twitter: '',
+    github: ''
   },
   {
     columna: 3,
@@ -62,7 +68,10 @@ export const perfiles = [
       { distincion: 5 },
       { distincion: 11 },
     ],
-    op: 's'
+    youtube: '',
+    reddit: '',
+    twitter: '',
+    github: ''
   },
   {
     columna: 1,
@@ -82,12 +91,16 @@ export const perfiles = [
       { distincion: 11 },
       { distincion: 'T2' },
     ],
+    youtube: '',
+    reddit: '',
+    twitter: '',
+    github: ''
   },
   {
     columna: 2,
     bg: '',
     img_src: 'https://cdn.discordapp.com/avatars/947964244882767902/55e209bd1b82dc9ccc1c0504a4e3d702.png?size=1024',
-    usuario: 'adrianpeña',
+    usuario: 'adrianpena',
     cargo: 'Usuario motivado',
     distincion: 'T2',
     rareza: 'r',
@@ -98,6 +111,10 @@ export const perfiles = [
     distinciones: [
       { distincion: 'T2' },
     ],
+    youtube: '',
+    reddit: '',
+    twitter: '',
+    github: ''
   },
   {
     columna: 3,
@@ -111,5 +128,9 @@ export const perfiles = [
     discord: 'LIL.smowting#6872',
     nacionalidad: 'Argentino',
     edad: '17',
+    youtube: '',
+    reddit: '',
+    twitter: '',
+    github: ''
   }
 ]
