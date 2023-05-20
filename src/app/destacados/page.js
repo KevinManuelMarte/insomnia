@@ -1,7 +1,5 @@
-import Distincion from '../Distincion'
 import Tarjeta from './Tarjeta';
 import { perfiles } from '../Perfiles'
-import Image from 'next/image';
 
 const col1 = perfiles.filter(perfil => perfil.columna === 1)
 const col2 = perfiles.filter(perfil => perfil.columna === 2)
