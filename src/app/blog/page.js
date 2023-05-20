@@ -8,7 +8,7 @@ import Tarjeta from '../destacados/Tarjeta'
 
 const encargados = perfiles.filter((perfil) => {
   const { usuario } = perfil;
-  return ['Anfitrion', 'Nic0_Mongrant', 'Caian'].includes(usuario);
+  return ['Anfitrion', 'Nic0_Mongrant'].includes(usuario);
 })
 
 export default function Page() {
@@ -17,7 +17,7 @@ export default function Page() {
       <div className='my-8 lg:mx-16 mx-4'>
         <div className='grid grid-cols-12'>
           <div className="col-start-5 col-span-4">
-            <h1 className='text-yellow-300 md:text-4xl text-3xl font-semibold text-center leading-relaxed'>Tecla 3</h1>
+            <h1 className='text-yellow-300 md:text-4xl text-3xl font-semibold text-center md:leading-relaxed leading-relaxed'>Tecla 3</h1>
           </div>
           <div className="col-start-10 col-span-3">
             <p className='text-neutral-300/90 text-right'>
@@ -122,7 +122,7 @@ export default function Page() {
           </div>
           {encargados.map(perfil => {
             return (
-              <div className="xl:col-span-4 md:col-span-6 col-span-12" key={perfil.usuario}>
+              <div className="md:col-span-6 col-span-12" key={perfil.usuario}>
                 <ul className="list-none">
                   <Tarjeta
                     key={perfil.usuario}
