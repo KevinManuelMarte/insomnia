@@ -6,10 +6,10 @@ import Invitacion from '../Invitacion'
 import { perfiles } from '../Perfiles'
 import Tarjeta from '../destacados/Tarjeta'
 
-const encargado1 = perfiles.filter(perfil => perfil.usuario === 'Anfitrion')
-const encargado2 = perfiles.filter(perfil => perfil.usuario === 'Nic0_Mongrant')
-const encargado3 = perfiles.filter(perfil => perfil.usuario === 'Caian')
-const encargados = encargado1.concat(encargado2, encargado3)
+const encargados = perfiles.filter((perfil) => {
+  const { usuario } = perfil;
+  return ['Anfitrion', 'Nic0_Mongrant', 'Caian'].includes(usuario);
+})
 
 export default function Page() {
   return (
