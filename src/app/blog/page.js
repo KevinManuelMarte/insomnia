@@ -17,7 +17,7 @@ export default function Page() {
       <div className='my-8 lg:mx-16 mx-4'>
         <div className='grid grid-cols-12'>
           <div className="col-start-5 col-span-4">
-            <h1 className='text-yellow-300 text-4xl font-semibold text-center leading-relaxed'>Tecla 3</h1>
+            <h1 className='text-yellow-300 md:text-4xl text-3xl font-semibold text-center leading-relaxed'>Tecla 3</h1>
           </div>
           <div className="col-start-10 col-span-3">
             <p className='text-neutral-300/90 text-right'>
