@@ -1,4 +1,5 @@
-import Tarjeta from '../destacados/Tarjeta'
+import Tarjeta from '../Tarjeta'
+import { HiOutlineCube } from 'react-icons/hi'
 
 export default function Page() {
   return (
@@ -11,7 +12,9 @@ export default function Page() {
             titulo='Tecla 3'
             subtitulo='Publicación activa'
             desc='Un servidor amistoso de Minecraft en modo supervivencia.'
-          />  
+          >
+            <HiOutlineCube/>
+          </Tarjeta>
         </div>
       </div>
     </div>

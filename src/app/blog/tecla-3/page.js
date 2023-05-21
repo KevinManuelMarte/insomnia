@@ -4,7 +4,7 @@ import { TbBucket } from 'react-icons/tb'
 import { BiWorld } from 'react-icons/bi'
 import Invitacion from '../../Invitacion'
 import { perfiles } from '../../Perfiles'
-import Tarjeta from '../../destacados/Tarjeta'
+import Tarjeta from '../../Tarjeta'
 
 const encargados = perfiles.filter((perfil) => {
   const { usuario } = perfil;

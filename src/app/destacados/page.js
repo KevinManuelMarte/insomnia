@@ -1,4 +1,4 @@
-import Tarjeta from './Tarjeta';
+import Tarjeta from '../Tarjeta';
 import { perfiles } from '../Perfiles'
 
 const col1 = perfiles.filter(perfil => perfil.columna === 1)
