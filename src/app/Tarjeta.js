@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Distincion from '../Distincion'
+import Distincion from './Distincion'
 import Image from 'next/image'
 
 export default function Tarjeta(props) {
@@ -7,8 +7,9 @@ export default function Tarjeta(props) {
     <div className={props.className} key={props.key}>
       <Link href={props.enlace} className="bg-noche-700/20 rounded-lg p-8 flex justify-between items-center flex-wrap">
         <div className='w-5/6'>
-          <div className='flex items-center'>
-            <p className="text-white text-xl pr-2">{ props.titulo }</p>
+          <div className='flex items-center text-white text-xl gap-2'>
+            {props.children}
+            <p>{ props.titulo }</p>
             {props.distincion ? (
               <Distincion className='text-sm' tipo={props.distincion} />
             ) : null}
