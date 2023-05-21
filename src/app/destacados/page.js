@@ -11,31 +11,35 @@ export default function Destacados() {
 			<div className="my-4 xl:mx-16 mx-4">
 				<div className="grid grid-cols-12">
 					<div className="lg:col-span-4 col-span-12">
-						<ul className='list-none'>
 							{col1.map(perfil => {
 								return (
 									<Tarjeta
+										className='p-2'
+										enlace={`/destacados/${perfil.usuario}`}
 										key={perfil.usuario}
-										usuario={perfil.usuario}
-										tipo={perfil.distincion}
-										cargo={perfil.cargo}
+										titulo={perfil.usuario}
+										distincion={perfil.distincion}
+										subtitulo={perfil.cargo}
 										img_src={perfil.img_src}
+										img_alt={`Imagen de perfil de ${perfil.usuario}`}
 										desc={perfil.desc}
 									/>
 								)
 							})}
-						</ul>
 					</div>		
 					<div className="lg:col-span-4 col-span-12">
 						<ul className='list-none'>
 							{col2.map(perfil => {
 								return (
 									<Tarjeta
+										className='p-2'
+										enlace={`/destacados/${perfil.usuario}`}
 										key={perfil.usuario}
-										usuario={perfil.usuario}
-										tipo={perfil.distincion}
-										cargo={perfil.cargo}
+										titulo={perfil.usuario}
+										distincion={perfil.distincion}
+										subtitulo={perfil.cargo}
 										img_src={perfil.img_src}
+										img_alt={`Imagen de perfil de ${perfil.usuario}`}
 										desc={perfil.desc}
 									/>
 								)
@@ -47,11 +51,14 @@ export default function Destacados() {
 							{col3.map(perfil => {
 								return (
 									<Tarjeta
+										className='p-2'
+										enlace={`/destacados/${perfil.usuario}`}
 										key={perfil.usuario}
-										usuario={perfil.usuario}
-										tipo={perfil.distincion}
-										cargo={perfil.cargo}
+										titulo={perfil.usuario}
+										distincion={perfil.distincion}
+										subtitulo={perfil.cargo}
 										img_src={perfil.img_src}
+										img_alt={`Imagen de perfil de ${perfil.usuario}`}
 										desc={perfil.desc}
 									/>
 								)
