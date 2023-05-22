@@ -4,7 +4,7 @@ export default function Distincion(props) {
       <span
         key={props.key}
         className={`
-        border rounded-full py-1 px-1 leading-none
+        border rounded-full
         ${props.className}
         ${props.tipo == 1 ? 'text-emerald-400 border-emerald-400' : ''}
         ${props.tipo == 2 ? 'text-red-400 border-red-400' : ''}
