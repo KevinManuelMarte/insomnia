@@ -122,7 +122,9 @@ export default function Page() {
             </div>
           </div>
           <div className="md:col-start-4 md:col-span-6 col-span-12">
-            <Invitacion />
+            <Invitacion
+              subtitulo='¡Únete a Insomnia para disfrutar de este evento!'
+            />
           </div>
         </div>
       </div>
