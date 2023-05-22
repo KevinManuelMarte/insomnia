@@ -11,7 +11,7 @@ export default function Tarjeta(props) {
             {props.children}
             <p>{ props.titulo }</p>
             {props.distincion ? (
-              <Distincion className='md:text-sm text-xs' tipo={props.distincion} />
+              <Distincion className='md:text-sm text-xs px-2' tipo={props.distincion} />
             ) : null}
           </div>
           <p className='text-noche-300 md:text-base text-sm'>{ props.subtitulo }</p>
