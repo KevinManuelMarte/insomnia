@@ -6,71 +6,69 @@ const col2 = perfiles.filter(perfil => perfil.columna === 2)
 const col3 = perfiles.filter(perfil => perfil.columna === 3)
 
 export default function Destacados() {
-  return (
-    <>
-			<div className="my-8 xl:mx-16 md:mx-8 mx-2">
-				<div className="grid grid-cols-12 gap-x-4">
-					<div className="lg:col-span-4 col-span-12">
-							{col1.map(perfil => {
-								return (
-									<Tarjeta
-										className='mb-4'
-										enlace={`/destacados/${perfil.usuario}`}
-										key={perfil.usuario}
-										titulo={perfil.usuario}
-										distincion={perfil.distincion}
-										subtitulo={perfil.cargo}
-										img_src={perfil.img_src}
-										img_alt={`Imagen de perfil de ${perfil.usuario}`}
-										desc={perfil.desc}
-									/>
-								)
-							})}
-					</div>		
-					<div className="lg:col-span-4 col-span-12">
-						<ul className='list-none'>
-							{col2.map(perfil => {
-								return (
-									<Tarjeta
-										className='mb-4'
-										enlace={`/destacados/${perfil.usuario}`}
-										key={perfil.usuario}
-										titulo={perfil.usuario}
-										distincion={perfil.distincion}
-										subtitulo={perfil.cargo}
-										img_src={perfil.img_src}
-										img_alt={`Imagen de perfil de ${perfil.usuario}`}
-										desc={perfil.desc}
-									/>
-								)
-							})}
-						</ul>
-					</div>		
-					<div className="lg:col-span-4 col-span-12">
-						<ul className='list-none'>
-							{col3.map(perfil => {
-								return (
-									<Tarjeta
-										className='mb-4'
-										enlace={`/destacados/${perfil.usuario}`}
-										key={perfil.usuario}
-										titulo={perfil.usuario}
-										distincion={perfil.distincion}
-										subtitulo={perfil.cargo}
-										img_src={perfil.img_src}
-										img_alt={`Imagen de perfil de ${perfil.usuario}`}
-										desc={perfil.desc}
-									/>
-								)
-							})}
-						</ul>
-					</div>		
+	return (
+		<>
+			<div className="grid grid-cols-12 gap-x-4">
+				<div className="lg:col-span-4 col-span-12">
+					{col1.map(perfil => {
+						return (
+							<Tarjeta
+								className='mb-4'
+								enlace={`/destacados/${perfil.usuario}`}
+								key={perfil.usuario}
+								titulo={perfil.usuario}
+								distincion={perfil.distincion}
+								subtitulo={perfil.cargo}
+								img_src={perfil.img_src}
+								img_alt={`Imagen de perfil de ${perfil.usuario}`}
+								desc={perfil.desc}
+							/>
+						)
+					})}
+				</div>
+				<div className="lg:col-span-4 col-span-12">
+					<ul className='list-none'>
+						{col2.map(perfil => {
+							return (
+								<Tarjeta
+									className='mb-4'
+									enlace={`/destacados/${perfil.usuario}`}
+									key={perfil.usuario}
+									titulo={perfil.usuario}
+									distincion={perfil.distincion}
+									subtitulo={perfil.cargo}
+									img_src={perfil.img_src}
+									img_alt={`Imagen de perfil de ${perfil.usuario}`}
+									desc={perfil.desc}
+								/>
+							)
+						})}
+					</ul>
+				</div>
+				<div className="lg:col-span-4 col-span-12">
+					<ul className='list-none'>
+						{col3.map(perfil => {
+							return (
+								<Tarjeta
+									className='mb-4'
+									enlace={`/destacados/${perfil.usuario}`}
+									key={perfil.usuario}
+									titulo={perfil.usuario}
+									distincion={perfil.distincion}
+									subtitulo={perfil.cargo}
+									img_src={perfil.img_src}
+									img_alt={`Imagen de perfil de ${perfil.usuario}`}
+									desc={perfil.desc}
+								/>
+							)
+						})}
+					</ul>
 				</div>
 			</div>
-    </>
-  )
+		</>
+	)
 }
 
 export const metadata = {
-  title: 'Destacados - Insomnia',
+	title: 'Destacados - Insomnia',
 };

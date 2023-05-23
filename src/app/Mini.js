@@ -1,11 +1,3 @@
-export function Contenedor(props) {
-  return (
-    <div className="my-8 xl:mx-16 md:mx-8 mx-2">
-      {props.children}
-    </div>
-  )
-}
-
 export function Titulo1(props) {
   return (
     <h1 className={`
