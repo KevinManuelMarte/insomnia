@@ -2,6 +2,7 @@ import Tarjeta from '@/app/Tarjeta'
 import { BsShield, BsBriefcase, BsNewspaper } from 'react-icons/bs'
 import { MdOutlineColorLens } from 'react-icons/md'
 import { AiOutlineCode } from 'react-icons/ai'
+import { BiMicrophone } from 'react-icons/bi'
 import Invitacion from '@/app/Invitacion'
 
 export default function Page() {
@@ -29,7 +30,7 @@ export default function Page() {
         enlace='#'
         className='lg:col-span-4 md:col-span-4 col-span-12'
         titulo='Moderador'
-        subtitulo='2 cupos disponibles'
+        subtitulo='1 cupo disponibles'
         desc='Aquellos miembros del personal que se dedican a regular y moderar la actividad en el servidor.'
       >
         <BsShield />
@@ -47,16 +48,16 @@ export default function Page() {
         enlace=''
         className='lg:col-span-4 md:col-span-4 col-span-12'
         titulo='Anfitrión'
-        subtitulo='1 cupos disponibles'
+        subtitulo='1 cupo disponibles'
         desc='El personal encargado de dar vida a la comunidad y fomentar la actividad entre los usuarios.'
       >
-        <MdOutlineColorLens />
+        <BiMicrophone />
       </Tarjeta>
       <Tarjeta
         enlace=''
         className='lg:col-span-4 md:col-span-4 col-span-12'
         titulo='Programador'
-        subtitulo='1 cupos disponibles'
+        subtitulo='1 cupo disponibles'
         desc='Miembros del personal cuya labor es prestar sus habilidades de programación para mantener la página de Insomnia y otras cosas.'
       >
         <AiOutlineCode />
