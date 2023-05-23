@@ -6,10 +6,7 @@ import Invitacion from '../../Invitacion'
 import { perfiles } from '../../Perfiles'
 import Tarjeta from '../../Tarjeta'
 
-const encargados = perfiles.filter((perfil) => {
-  const { usuario } = perfil;
-  return ['Anfitrion', 'Nic0_Mongrant'].includes(usuario);
-})
+const encargados = perfiles.filter(obj => obj.usuario === "Anfitrion" || obj.usuario === "Nic0_Mongrant")
 
 export default function Page() {
   return (
