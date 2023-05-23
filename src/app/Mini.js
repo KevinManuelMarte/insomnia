@@ -18,6 +18,16 @@ export function Titulo2(props) {
   )
 }
 
+export function Titulo3(props) {
+  return (
+    <h2 className={`
+    ${props.className}
+    lg:text-2xl md:text-lg text-mg font-semibold`}>
+      {props.children}
+    </h2>
+  )
+}
+
 export function Subtitulo(props) {
   return (
     <h3 className={`
