@@ -1,5 +1,14 @@
 import { Parrafo, Titulo1, Titulo2 } from '@/app/Mini';
+import { perfiles } from '@/app/Perfiles';
 import Tarjeta from '@/app/Tarjeta';
+
+const usr = perfiles.filter(perfil =>
+  perfil.usuario === 'Anfitrion' ||
+  perfil.usuario === 'Nic0_Mongrant' ||
+  perfil.usuario === 'Delta' ||
+  perfil.usuario === 'Iván 2.0'
+)
+console.log(usr)
 
 export default function Page() {
   return (
@@ -67,6 +76,19 @@ export default function Page() {
           Miembros del equipo de moderación
         </Titulo2>
       </div>
+      {usr.map(perfil => {
+        return (
+          <Tarjeta
+            key={perfil.usuario}
+            enlace={`/destacados/${perfil.usuario_simple}`}
+            className='col-span-4'
+            titulo={perfil.usuario}
+            subtitulo={perfil.cargo}
+            distincion={perfil.distincion}
+            img_src={perfil.img_src}
+          />
+        )
+      })}
     </div>
   )
 }
