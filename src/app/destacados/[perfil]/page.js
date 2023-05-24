@@ -8,7 +8,7 @@ export default function Page({ params }) {
   const parametros = [params]
   const parametro = parametros.map(parametros => { return parametros.perfil })
   const paramet = parametro.toString()
-  const param = perfiles.filter(perfil => perfil.usuario === paramet)
+  const param = perfiles.filter(perfil => perfil.usuario_simple === paramet)
   return (
     param.map(perfil => {
       return (

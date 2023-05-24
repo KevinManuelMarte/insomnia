@@ -108,7 +108,7 @@ export default function Page() {
               return (
                 <Tarjeta
                   className='col-span-2 md:col-span-1'
-                  enlace={`/destacados/${perfil.usuario}`}
+                  enlace={`/destacados/${perfil.usuario_simple}`}
                   key={perfil.usuario}
                   titulo={perfil.usuario}
                   distincion={perfil.distincion}
