@@ -1,9 +1,9 @@
 export const perfiles = [
   {
     columna: 1,
-    bg: 'emerald',
     img_src: 'https://cdn.discordapp.com/avatars/877320667203252234/ad9d39456f480312ff69ab7daedc674f.png?size=1024',
     usuario: 'Anfitrion',
+    usuario_simple: 'Anfitrion',
     distincion: '1',
     cargo: 'Gerente general',
     rareza: 'l',
@@ -21,7 +21,7 @@ export const perfiles = [
       { distincion: 9 },
       { distincion: 10 },
       { distincion: 11 },
-      { distincion: 12 },
+      { distincion: 12 }
     ],
     youtube: 'https://www.youtube.com/@anfitrion222',
     reddit: 'https://www.reddit.com/user/Anfitrion_',
@@ -30,9 +30,9 @@ export const perfiles = [
   },
   {
     columna: 2,
-    bg: 'cyan',
     img_src: 'https://cdn.discordapp.com/avatars/572554474791370762/d000b809fd09898222a66338ae9e16cb.png?size=1024',
     usuario: 'Nic0_Mongrant',
+    usuario_simple: 'Nic0_Mongrant',
     distincion: 2,
     cargo: 'Moderador y diseñador',
     rareza: 'e',
@@ -55,9 +55,9 @@ export const perfiles = [
   },
   {
     columna: 3,
-    bg: 'red',
     img_src: 'https://media.discordapp.net/attachments/1032516925617614878/1106262852307791892/image.png?width=458&height=458',
     usuario: 'Lenchata',
+    usuario_simple: 'Lenchata',
     distincion: 6,
     rareza: 'e',
     cargo: 'Gran patrocinador',
@@ -76,9 +76,9 @@ export const perfiles = [
   },
   {
     columna: 1,
-    bg: '',
     img_src: 'https://cdn.discordapp.com/avatars/700692008179859476/784a4007797c9155af662c3e851b114b.png?size=1024',
     usuario: 'Caian',
+    usuario_simple: 'Caian',
     cargo: 'Gran animador',
     distincion: 9,
     rareza: 'u',
@@ -99,9 +99,9 @@ export const perfiles = [
   },
   {
     columna: 2,
-    bg: '',
     img_src: 'https://cdn.discordapp.com/avatars/947964244882767902/55e209bd1b82dc9ccc1c0504a4e3d702.png?size=1024',
-    usuario: 'adrianpena',
+    usuario: 'adrianpeña',
+    usuario_simple: 'adrianpena',
     cargo: 'Usuario motivado',
     distincion: 'T2',
     rareza: 'r',
@@ -119,9 +119,9 @@ export const perfiles = [
   },
   {
     columna: 3,
-    bg: '',
     img_src: 'https://cdn.discordapp.com/avatars/748420992631701535/32d200b4830e3a6d310beb3e8830e7f4.png?size=1024',
     usuario: 'Delta',
+    usuario_simple: 'Delta',
     cargo: 'Moderador novato',
     distincion: '5',
     rareza: 'r',
@@ -136,5 +136,46 @@ export const perfiles = [
     reddit: '',
     twitter: '',
     github: 'https://github.com/T0kyoB0y'
+  },
+  {
+    columna: 1,
+    img_src: 'https://cdn.discordapp.com/avatars/1091735302072189049/a1177ef86613c896b51a4905c798ab75.png?size=1024',
+    usuario: '𝔽𝕝𝕦𝕫𝕜𝕪',
+    usuario_simple: 'Fluzky',
+    cargo: 'Programador',
+    distincion: '7',
+    rareza: 'r',
+    desc: 'El segundo programador de Insomnia.',
+    discord: '𝔽𝕝𝕦𝕫𝕜𝕪#7953',
+    nacionalidad: 'Española',
+    edad: '17',
+    distinciones: [
+      { distincion: '7' },
+      { distincion: '8' },
+    ],
+    youtube: '',
+    reddit: '',
+    twitter: '',
+    github: ''
+  },
+  {
+    columna: 3,
+    img_src: 'https://cdn.discordapp.com/avatars/1080558915391070308/d371cdcd4b3300486f96e4325bd8c85b.png?size=1024',
+    usuario: 'Iván 2.0',
+    usuario_simple: 'Ivan20',
+    cargo: 'Moderador novato',
+    distincion: '5',
+    rareza: 'r',
+    desc: '404',
+    discord: 'Iván#0002',
+    nacionalidad: 'Desconocida',
+    edad: '16',
+    distinciones: [
+      { distincion: '5' },
+    ],
+    youtube: '',
+    reddit: '',
+    twitter: '',
+    github: ''
   },
 ]

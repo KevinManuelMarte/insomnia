@@ -14,7 +14,7 @@ export default function Destacados() {
 						return (
 							<Tarjeta
 								className='mb-4'
-								enlace={`/destacados/${perfil.usuario}`}
+								enlace={`/destacados/${perfil.usuario_simple}`}
 								key={perfil.usuario}
 								titulo={perfil.usuario}
 								distincion={perfil.distincion}
@@ -32,7 +32,7 @@ export default function Destacados() {
 							return (
 								<Tarjeta
 									className='mb-4'
-									enlace={`/destacados/${perfil.usuario}`}
+									enlace={`/destacados/${perfil.usuario_simple}`}
 									key={perfil.usuario}
 									titulo={perfil.usuario}
 									distincion={perfil.distincion}
@@ -51,7 +51,7 @@ export default function Destacados() {
 							return (
 								<Tarjeta
 									className='mb-4'
-									enlace={`/destacados/${perfil.usuario}`}
+									enlace={`/destacados/${perfil.usuario_simple}`}
 									key={perfil.usuario}
 									titulo={perfil.usuario}
 									distincion={perfil.distincion}
