@@ -14,11 +14,11 @@ export default function Home() {
         </h3>
       </div>
       <div className="md:col-span-10 col-span-12 md:col-start-2">
-        <h1 className='lg:text-7xl md:text-5xl texl-4xl font-black text-center bg-clip-text text-transparent bg-gradient-to-r from-ocaso-500 to-noche-500'>
+        <h1 className='lg:text-7xl md:text-5xl text-4xl font-black text-center bg-clip-text text-transparent bg-gradient-to-r from-ocaso-500 to-noche-500'>
           La comunidad que se dedica a sus miembros
         </h1>
       </div>
-      <div className="col-span-8 col-start-3">
+      <div className="md:col-span-8 col-span-12 md:col-start-3">
         <p className='lg:text-2xl md:text-xl text-base text-noche-300 text-center pb-4'>
           El servidor de Insomnia es una comunidad virtual de discord en la cual muchos gamers se reunen para convivir de manera pacifica e integrada.
         </p>
