@@ -1,18 +1,31 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { Parrafo, Titulo1 } from './Mini'
+import Invitacion from './Invitacion'
 
 export default function Home() {
   return (
-    <>
-      <div className='grid 2xl:grid-cols-8 xl:grid-cols-5 grid-cols-5 py-12 relative '>  
-        <div className='2xl:col-start-4 xl:col-start-3 2xl:col-start-2 col-start-2 xl:col-span-1 2xl:col-span-2 md:col-span-1 md:col-start-3 col-span-3 flex place-content-center'>
-          <Image src='https://media.discordapp.net/attachments/1032516925617614878/1107528348118294548/prelogo1.png?width=1024&height=1024' width={1024} height={1024} alt='Logo de Insomnia' quality={100} />
-        </div>
-        <div className='2xl:col-start-4 xl:col-start-2 2xl:col-start-2 col-start-2 xl:col-span-3 2xl:col-span-2 col-span-3 text-center'>
-          <Titulo1 className='text-noche-100'>Insomnia</Titulo1>
-          <Parrafo className='text-noche-200'>Esta es la página oficial del servidor de Discord Insomnia.</Parrafo>
-        </div>
+    <div className='grid grid-cols-12 gap-4'>
+      <div className="col-span-12">
+        <h3 className='text-noche-300 font-semibold lg:text-2xl md:text-xl text-lg text-center pt-2 pb-4'>
+          <Link href='/blog/se-busca-personal'>
+            Se busca personal!
+          </Link>
+        </h3>
       </div>
-    </>
+      <div className="md:col-span-10 col-span-12 md:col-start-2">
+        <h1 className='lg:text-7xl md:text-5xl texl-4xl font-black text-center bg-clip-text text-transparent bg-gradient-to-r from-ocaso-500 to-noche-500'>
+          La comunidad que se dedica a sus miembros
+        </h1>
+      </div>
+      <div className="col-span-8 col-start-3">
+        <p className='lg:text-2xl md:text-xl text-base text-noche-300 text-center pb-4'>
+          El servidor de Insomnia es una comunidad virtual de discord en la cual muchos gamers se reunen para convivir de manera pacifica e integrada.
+        </p>
+      </div>
+      <div className="md:col-span-6 col-span-12 md:col-start-4">
+        <Invitacion subtitulo='Únete a nosotros y ayudanos a crear una mejor comunidad!' />
+      </div>
+    </div>
   )
 }
