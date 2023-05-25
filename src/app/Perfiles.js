@@ -28,26 +28,6 @@ export const perfiles = [
     github: 'https://github.com/aAnfitrion'
   },
   {
-    img_src: 'https://media.discordapp.net/attachments/1032516925617614878/1106262852307791892/image.png?width=458&height=458',
-    usuario: 'Lenchata',
-    usuario_simple: 'Lenchata',
-    distincion: 6,
-    rareza: 'e',
-    cargo: 'Gran patrocinador',
-    desc: 'Un gran donador y alguna vez administrador de Insomnia. Lenchata se encuentra actualmente inactivo.',
-    discord: ' Lenchata#5606',
-    nacionalidad: 'Chilena',
-    edad: '17',
-    distinciones: [
-      { distincion: 6 },
-      { distincion: 12 },
-    ],
-    youtube: 'https://www.youtube.com/@lenchata',
-    reddit: '',
-    twitter: 'https://twitter.com/loren_pezo',
-    github: 'https://github.com/Lenchata'
-  },
-  {
     img_src: 'https://cdn.discordapp.com/avatars/700692008179859476/784a4007797c9155af662c3e851b114b.png?size=1024',
     usuario: 'Caian',
     usuario_simple: 'Caian',
@@ -70,6 +50,25 @@ export const perfiles = [
     github: ''
   },
   {
+    img_src: 'https://cdn.discordapp.com/avatars/947964244882767902/55e209bd1b82dc9ccc1c0504a4e3d702.png?size=1024',
+    usuario: 'adrianpeña',
+    usuario_simple: 'adrianpena',
+    cargo: 'Usuario motivado',
+    distincion: 'T2',
+    rareza: 'r',
+    desc: 'Peruano de corazón y gran amigo de N. Mongrant. adrianpeña es muy activo y un poquito "pipipi".',
+    discord: 'adrianpeña#7645',
+    nacionalidad: 'Peruano',
+    edad: '14',
+    distinciones: [
+      { distincion: 'T2' },
+    ],
+    youtube: '',
+    reddit: '',
+    twitter: '',
+    github: ''
+  },
+  {
     img_src: 'https://cdn.discordapp.com/avatars/572554474791370762/d000b809fd09898222a66338ae9e16cb.png?size=1024',
     usuario: 'Nic0_Mongrant',
     usuario_simple: 'Nic0_Mongrant',
@@ -86,25 +85,6 @@ export const perfiles = [
       { distincion: 10 },
       { distincion: 11 },
       { distincion: 12 },
-      { distincion: 'T2' },
-    ],
-    youtube: '',
-    reddit: '',
-    twitter: '',
-    github: ''
-  },
-  {
-    img_src: 'https://cdn.discordapp.com/avatars/947964244882767902/55e209bd1b82dc9ccc1c0504a4e3d702.png?size=1024',
-    usuario: 'adrianpeña',
-    usuario_simple: 'adrianpena',
-    cargo: 'Usuario motivado',
-    distincion: 'T2',
-    rareza: 'r',
-    desc: 'Peruano de corazón y gran amigo de N. Mongrant. adrianpeña es muy activo y un poquito "pipipi".',
-    discord: 'adrianpeña#7645',
-    nacionalidad: 'Peruano',
-    edad: '14',
-    distinciones: [
       { distincion: 'T2' },
     ],
     youtube: '',
@@ -152,6 +132,26 @@ export const perfiles = [
     github: ''
   },
   {
+    img_src: 'https://media.discordapp.net/attachments/1032516925617614878/1106262852307791892/image.png?width=458&height=458',
+    usuario: 'Lenchata',
+    usuario_simple: 'Lenchata',
+    distincion: 6,
+    rareza: 'e',
+    cargo: 'Gran patrocinador',
+    desc: 'Un gran donador y alguna vez administrador de Insomnia. Lenchata se encuentra actualmente inactivo.',
+    discord: ' Lenchata#5606',
+    nacionalidad: 'Chilena',
+    edad: '17',
+    distinciones: [
+      { distincion: 6 },
+      { distincion: 12 },
+    ],
+    youtube: 'https://www.youtube.com/@lenchata',
+    reddit: '',
+    twitter: 'https://twitter.com/loren_pezo',
+    github: 'https://github.com/Lenchata'
+  },
+  {
     img_src: 'https://cdn.discordapp.com/avatars/1080558915391070308/d371cdcd4b3300486f96e4325bd8c85b.png?size=1024',
     usuario: 'Iván 2.0',
     usuario_simple: 'Ivan20',
@@ -183,6 +183,25 @@ export const perfiles = [
     edad: '17',
     distinciones: [
       { distincion: '5' },
+    ],
+    youtube: '',
+    reddit: '',
+    twitter: '',
+    github: ''
+  },
+  {
+    img_src: 'https://cdn.discordapp.com/avatars/769856990087348224/4dd9db2609c4354e62891214f670eff9.png?size=1024',
+    usuario: 'Sxnchez',
+    usuario_simple: 'Sxnchez',
+    cargo: 'Moderador experto',
+    distincion: '4',
+    rareza: 'e',
+    desc: 'Viene a ayudar.',
+    discord: 'Sxnchez#6541',
+    nacionalidad: 'Española',
+    edad: '17',
+    distinciones: [
+      { distincion: '4' },
     ],
     youtube: '',
     reddit: '',
