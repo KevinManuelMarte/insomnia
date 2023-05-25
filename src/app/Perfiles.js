@@ -105,6 +105,7 @@ export const perfiles = [
     edad: '19',
     distinciones: [
       { distincion: '5' },
+      { distincion: '12' },
     ],
     youtube: 'https://www.youtube.com/@tokyoboy9629',
     reddit: '',
@@ -125,6 +126,7 @@ export const perfiles = [
     distinciones: [
       { distincion: '7' },
       { distincion: '8' },
+      { distincion: '12' },
     ],
     youtube: '',
     reddit: '',
@@ -164,6 +166,7 @@ export const perfiles = [
     edad: '16',
     distinciones: [
       { distincion: '5' },
+      { distincion: '12' },
     ],
     youtube: '',
     reddit: '',
@@ -183,6 +186,7 @@ export const perfiles = [
     edad: '17',
     distinciones: [
       { distincion: '5' },
+      { distincion: '12' },
     ],
     youtube: '',
     reddit: '',
@@ -202,6 +206,7 @@ export const perfiles = [
     edad: '17',
     distinciones: [
       { distincion: '4' },
+      { distincion: '12' },
     ],
     youtube: '',
     reddit: '',
