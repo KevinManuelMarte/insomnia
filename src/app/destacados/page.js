@@ -1,74 +1,67 @@
-import Tarjeta from '../Tarjeta';
 import { perfiles } from '../Perfiles'
+import Tarjeta from '../Tarjeta'
 
-const col1 = perfiles.filter(perfil => perfil.columna === 1)
-const col2 = perfiles.filter(perfil => perfil.columna === 2)
-const col3 = perfiles.filter(perfil => perfil.columna === 3)
+const tres = Math.ceil(perfiles.length / 3)
+const inicio = perfiles.slice(0, tres)
+const medio = [].concat(perfiles.slice(tres))
+const dos = Math.ceil(medio.length / 2)
+const climax = medio.slice(0, dos)
+const final = medio.slice(dos)
 
-export default function Destacados() {
+export default function Page() {
 	return (
-		<>
-			<div className="grid grid-cols-12 gap-x-4">
-				<div className="lg:col-span-4 col-span-12">
-					{col1.map(perfil => {
-						return (
-							<Tarjeta
-								className='mb-4'
-								enlace={`/destacados/${perfil.usuario_simple}`}
-								key={perfil.usuario}
-								titulo={perfil.usuario}
-								distincion={perfil.distincion}
-								subtitulo={perfil.cargo}
-								img_src={perfil.img_src}
-								img_alt={`Imagen de perfil de ${perfil.usuario}`}
-								desc={perfil.desc}
-							/>
-						)
-					})}
-				</div>
-				<div className="lg:col-span-4 col-span-12">
-					<ul className='list-none'>
-						{col2.map(perfil => {
-							return (
-								<Tarjeta
-									className='mb-4'
-									enlace={`/destacados/${perfil.usuario_simple}`}
-									key={perfil.usuario}
-									titulo={perfil.usuario}
-									distincion={perfil.distincion}
-									subtitulo={perfil.cargo}
-									img_src={perfil.img_src}
-									img_alt={`Imagen de perfil de ${perfil.usuario}`}
-									desc={perfil.desc}
-								/>
-							)
-						})}
-					</ul>
-				</div>
-				<div className="lg:col-span-4 col-span-12">
-					<ul className='list-none'>
-						{col3.map(perfil => {
-							return (
-								<Tarjeta
-									className='mb-4'
-									enlace={`/destacados/${perfil.usuario_simple}`}
-									key={perfil.usuario}
-									titulo={perfil.usuario}
-									distincion={perfil.distincion}
-									subtitulo={perfil.cargo}
-									img_src={perfil.img_src}
-									img_alt={`Imagen de perfil de ${perfil.usuario}`}
-									desc={perfil.desc}
-								/>
-							)
-						})}
-					</ul>
-				</div>
+		<div className="grid grid-cols-3 gap-4">
+			<div className="lg:col-span-1 col-span-3">
+				{inicio.map(perfil => {
+					return (
+						<Tarjeta
+							enlace={`/destacados/${perfil.usuario_simple}`}
+							key={perfil.usuario}
+							className='mb-4'
+							titulo={perfil.usuario}
+							distincion={perfil.distincion}
+							subtitulo={perfil.cargo}
+							img_src={perfil.img_src}
+							img_alt={`Imagen de perfil de ${perfil.usuario}`}
+							desc={perfil.desc}
+						/>
+					)
+				})}
 			</div>
-		</>
+			<div className="lg:col-span-1 col-span-3">
+				{climax.map(perfil => {
+					return (
+						<Tarjeta
+							enlace={`/destacados/${perfil.usuario_simple}`}
+							key={perfil.usuario}
+							className='mb-4'
+							titulo={perfil.usuario}
+							distincion={perfil.distincion}
+							subtitulo={perfil.cargo}
+							img_src={perfil.img_src}
+							img_alt={`Imagen de perfil de ${perfil.usuario}`}
+							desc={perfil.desc}
+						/>
+					)
+				})}
+			</div>
+			<div className="lg:col-span-1 col-span-3">
+				{final.map(perfil => {
+					return (
+						<Tarjeta
+							enlace={`/destacados/${perfil.usuario_simple}`}
+							key={perfil.usuario}
+							className='mb-4'
+							titulo={perfil.usuario}
+							distincion={perfil.distincion}
+							subtitulo={perfil.cargo}
+							img_src={perfil.img_src}
+							img_alt={`Imagen de perfil de ${perfil.usuario}`}
+							desc={perfil.desc}
+						/>
+					)
+				})}
+			</div>
+		</div>
 	)
 }
-
-export const metadata = {
-	title: 'Destacados - Insomnia',
-};
