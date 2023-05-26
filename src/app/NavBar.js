@@ -12,6 +12,7 @@ export default function NavBar() {
           </Link>
           <ul className="relative font-semibold flex items-center gap-5 text-sm">
             <li><Link className='hover:text-white duration-200' href='/destacados'>Destacados</Link></li>
+            <li><Link className='hover:text-white duration-200' href='/guias'>Guias</Link></li>
             <li><Link className='hover:text-white duration-200' href='/blog'>Blog</Link></li>
           </ul>
         </div>
