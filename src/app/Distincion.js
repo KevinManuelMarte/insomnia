@@ -9,7 +9,7 @@ export default function Distincion(props) {
         ${props.tipo == 2 ? 'text-red-400 border-red-400' : ''}
         ${props.tipo == 3 ? 'text-lime-400 border-lime-400' : ''}
         ${props.tipo == 4 ? 'text-teal-300 border-teal-300' : ''}
-        ${props.tipo == 5 ? 'text-sky-300 border-sky-300' : ''}
+        ${props.tipo == 5 ? 'text-blue-300 border-blue-300' : ''}
         ${props.tipo == 6 ? 'text-fuchsia-300 border-fuchsia-300' : ''}
         ${props.tipo == 7 ? 'text-amber-400 border-amber-400' : ''}
         ${props.tipo == 8 ? 'text-orange-400 border-orange-400' : ''}
@@ -33,7 +33,7 @@ export default function Distincion(props) {
       {props.tipo == 4 ? 'Moderador' : null}
       {props.tipo == 5 ? 'Moderador interno' : null}
       {props.tipo == 6 ? 'Donador' : null}
-      {props.tipo == 7 ? 'Programador' : null}
+      {props.tipo == 7 ? 'Desarrollador' : null}
       {props.tipo == 8 ? 'Publicista' : null}
       {props.tipo == 9 ? 'Anfitrión' : null}
       {props.tipo == 10 ? 'Diseñador' : null}
