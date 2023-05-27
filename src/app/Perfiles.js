@@ -117,15 +117,15 @@ export const perfiles = [
     usuario: 'Delta',
     usuario_simple: 'Delta',
     cargo: 'Moderador novato',
-    distincion: '5',
+    distincion: 5,
     rareza: 'r',
     desc: 'Un chileno muy cansado que acostumbra desvelarse.',
     discord: 'TokyoB0t#2854',
     nacionalidad: 'Chilena',
-    edad: '19',
+    edad: 19,
     distinciones: [
-      { distincion: '5' },
-      { distincion: '12' },
+      { distincion: 5 },
+      { distincion: 12 },
     ],
     youtube: 'https://www.youtube.com/@tokyoboy9629',
     reddit: '',
@@ -185,7 +185,7 @@ export const perfiles = [
     nacionalidad: 'Mexicana',
     edad: '17',
     distinciones: [
-      { distincion: '5' },
+      { distincion: '8' },
       { distincion: '12' },
     ],
     youtube: '',
@@ -213,4 +213,25 @@ export const perfiles = [
     twitter: '',
     github: ''
   },
+{
+    img_src: 'https://cdn.discordapp.com/avatars/898886104047046657/96ac56292b0bf92c5ea5f48d8e30bf28.png?size=1024',
+    usuario: 'TMZGames',
+    usuario_simple: 'TMZGames',
+    cargo: 'Desarrollador novato',
+    distincion: '7',
+    rareza: 'r',
+    desc: '',
+    discord: 'TMZGames#2235',
+    nacionalidad: 'Desconocida',
+    edad: '18',
+    distinciones: [
+      { distincion: '7' },
+      { distincion: '12' },
+    ],
+    youtube: 'https://www.youtube.com/@TMZGames68',
+    reddit: '',
+    twitter: '',
+    github: ''
+  },
+
 ]
