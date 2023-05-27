@@ -27,10 +27,10 @@ export default function Page() {
         </h1>
       </div>
       <Tarjeta
-        enlace='#'
+        enlace='/guias/moderador'
         className='lg:col-span-4 md:col-span-4 col-span-12'
         titulo='Moderador'
-        subtitulo='1 cupo disponibles'
+        subtitulo='Sin cupos disponibles'
         desc='Aquellos miembros del personal que se dedican a regular y moderar la actividad en el servidor.'
       >
         <BsShield />
@@ -56,8 +56,8 @@ export default function Page() {
       <Tarjeta
         enlace=''
         className='lg:col-span-4 md:col-span-4 col-span-12'
-        titulo='Programador'
-        subtitulo='1 cupo disponibles'
+        titulo='Desarrollador'
+        subtitulo='Sin cupos disponibles'
         desc='Miembros del personal cuya labor es prestar sus habilidades de programación para mantener la página de Insomnia y otras cosas.'
       >
         <AiOutlineCode />
