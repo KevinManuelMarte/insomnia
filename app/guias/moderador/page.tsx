@@ -1,6 +1,6 @@
-import { Parrafo, Titulo1, Titulo2 } from "@/app/Mini";
-import { perfiles } from "@/app/Perfiles";
-import Tarjeta from "@/app/Tarjeta";
+import { Parrafo, Titulo1, Titulo2 } from "../../Mini";
+import { perfiles } from "../../Perfiles";
+import Tarjeta from "../../Tarjeta";
 
 const mods = perfiles.filter((perfil) =>
   perfil.distinciones.some((distincion) =>
@@ -21,8 +21,8 @@ export default function Page() {
           Insomnia debe seguir al pie de la letra.
         </Parrafo>
       </div>
-      <div class="col-span-12">
-        <ul class="list-decimal text-noche-200 font-semibold list-inside flex flex-wrap lg:text-lg md:text-base text-sm">
+      <div className="col-span-12">
+        <ul className="list-decimal text-noche-200 font-semibold list-inside flex flex-wrap lg:text-lg md:text-base text-sm">
           <li className="md:w-1/2">
             Mantener una buena comunicación dentro del equipo de moderación y
             con la comuynidad del servidor en Discord
@@ -63,7 +63,7 @@ export default function Page() {
           </li>
         </ul>
       </div>
-      <div class="col-span-12">
+      <div className="col-span-12">
         <Titulo1 className='text-yellow-300 text-center'>Reglas de sanciones</Titulo1>
         <Parrafo className='text-noche-100 pt-4'>
           Estas son las reglas para aplicar las sanciones. Todo moderador, sin importar que tanto rango tenga, deberá seguir estas reglas.

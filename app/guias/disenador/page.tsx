@@ -1,6 +1,6 @@
-import { Parrafo, Titulo1, Titulo2 } from "@/app/Mini";
-import { perfiles } from "@/app/Perfiles";
-import Tarjeta from "@/app/Tarjeta";
+import { Parrafo, Titulo1, Titulo2 } from "../../Mini";
+import { perfiles } from "../../Perfiles";
+import Tarjeta from "../../Tarjeta";
 
 const mods = perfiles.filter((perfil) =>
   perfil.distinciones.some((distincion) => distincion.distincion == 10)
@@ -9,7 +9,7 @@ const mods = perfiles.filter((perfil) =>
 export default function Page() {
   return (
     <div className="grid grid-cols-12 gap-4">
-      <div class="col-span-12">
+      <div className="col-span-12">
         <Titulo1 className='text-yellow-300 text-center'>
           ¿Que hacen los diseñadores?
         </Titulo1>

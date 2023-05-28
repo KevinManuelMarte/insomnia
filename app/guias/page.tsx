@@ -1,4 +1,4 @@
-import Tarjeta from '@/app/Tarjeta'
+import Tarjeta from '../Tarjeta'
 import { BsShield, BsBriefcase, BsNewspaper } from 'react-icons/bs'
 import { MdOutlineColorLens } from 'react-icons/md'
 import { AiOutlineCode } from 'react-icons/ai'
@@ -17,7 +17,7 @@ export default function Page() {
         <BsShield />
       </Tarjeta>
       <Tarjeta
-        enlace='disenador'
+        enlace='/guias/disenador'
         className='lg:col-span-4 md:col-span-4 col-span-12'
         titulo='Diseñador'
         subtitulo='2 cupos disponibles'

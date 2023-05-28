@@ -1,8 +1,8 @@
-import Distincion from '@/app/Distincion'
-import { perfiles } from '@/app/Perfiles'
+import Distincion from '../../Distincion'
+import { perfiles } from '../../Perfiles'
 import Image from 'next/image'
 import { BsYoutube, BsReddit, BsTwitter, BsGithub } from 'react-icons/bs'
-import { Parrafo, Titulo1, Titulo2, Lista, Subtitulo } from '@/app/Mini'
+import { Parrafo, Titulo1, Titulo2, Lista, Subtitulo } from '../../Mini'
 
 export default function Page({ params }) {
   const parametros = [params]
