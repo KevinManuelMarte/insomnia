@@ -43,7 +43,7 @@ export function Parrafo(props) {
   return (
     <p className={`
     ${props.className}
-    lg:text-xl md:text-lg text-sm
+    lg:text-lg text-sm leading-relaxed
     `}>
       {props.children}
     </p>
