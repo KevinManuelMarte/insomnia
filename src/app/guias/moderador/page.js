@@ -66,8 +66,8 @@ export default function Page() {
       <div class="col-span-12">
         <Titulo1 className='text-yellow-300 text-center'>Reglas de sanciones</Titulo1>
         <Parrafo className='text-noche-100 pt-4'>
-          Estas son las reglas para aplicar las sanciones. Todo moderador, sin importar que tanto rango tenga, deberá seguir estas reglas. <br/>
-          Estas reglas solo aplican para el intervalo de 1 día. Crear un tique de reporte si algún moderador esta cumpliendo mal su trabajo. <br/>
+          Estas son las reglas para aplicar las sanciones. Todo moderador, sin importar que tanto rango tenga, deberá seguir estas reglas.
+          Estas reglas solo aplican para el intervalo de 1 día. Crear un tique de reporte si algún moderador esta cumpliendo mal su trabajo.
           Si algún usuario recibe 3 advertencias en 1 día será aislado 1 semana. Si recibe 7 advertencias en menos de 1 mes será baneado.
         </Parrafo>
       </div>
