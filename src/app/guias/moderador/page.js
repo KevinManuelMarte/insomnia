@@ -177,7 +177,7 @@ export default function Page() {
           <Tarjeta
             key={perfil.usuario}
             enlace={`/destacados/${perfil.usuario_simple}`}
-            className="col-span-4"
+            className="lg:col-span-4 md:col-span-6 col-span-12"
             titulo={perfil.usuario}
             subtitulo={perfil.cargo}
             distincion={perfil.distincion}
