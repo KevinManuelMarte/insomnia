@@ -133,7 +133,7 @@ export const perfiles = [
     github: 'https://github.com/T0kyoB0y'
   },
   {
-    img_src: 'https://cdn.discordapp.com/avatars/769856990087348224/4dd9db2609c4354e62891214f670eff9.png?size=1024',
+    img_src: 'https://cdn.discordapp.com/avatars/769856990087348224/adf75513a80819a826807d7f0ade8010.png?size=1024',
     usuario: 'Sxnchez',
     usuario_simple: 'Sxnchez',
     cargo: 'Moderador experto',
@@ -194,7 +194,7 @@ export const perfiles = [
     github: ''
   },
   {
-    img_src: 'https://cdn.discordapp.com/avatars/1080558915391070308/d371cdcd4b3300486f96e4325bd8c85b.png?size=1024',
+    img_src: 'https://cdn.discordapp.com/attachments/1112663494878318662/1112663736734453770/a_e46966fd0c4fba831b87a2e6b430dda1.gif',
     usuario: 'Iván 2.0',
     usuario_simple: 'Ivan20',
     cargo: 'Moderador novato',
