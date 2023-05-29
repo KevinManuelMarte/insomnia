@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function NavBar() {
   return (
     <>
-      <nav className='sticky top-0 bg-noche-900/90 border-b border-noche-700/30 backdrop-blur text-stone-300 p-4 flex items-center justify-between'>
+      <nav className='sticky top-0 bg-noche-900/90 border-b border-noche-700/30 backdrop-blur text-stone-300 p-4 flex items-center justify-between z-40' >
         <div className='relative flex items-center'>
           <Link href='/' className='relative flex items-center'>
             <Image className='mr-4' src='https://media.discordapp.net/attachments/1032516925617614878/1107528348118294548/prelogo1.png?width=458&height=458' height={40} width={40} quality={100} alt='Logo de insomnia' />
