@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
     <html className='bg-gradient-to-b from-noche-900 to-ocaso-900 bg-fixed' lang="en">
       <body className='backdrop-blur-xl'>
         <NavBar/>
-        <div className="my-8 xl:mx-16 md:mx-8 mx-2">
+        <div className="my-8">
           {children}
         </div>
       </body>
