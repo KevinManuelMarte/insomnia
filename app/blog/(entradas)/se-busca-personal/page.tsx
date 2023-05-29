@@ -1,9 +1,10 @@
-import Tarjeta from '../../Tarjeta'
+import Tarjeta from '../../../Tarjeta'
 import { BsShield, BsBriefcase, BsNewspaper } from 'react-icons/bs'
 import { MdOutlineColorLens } from 'react-icons/md'
 import { AiOutlineCode } from 'react-icons/ai'
 import { BiMicrophone } from 'react-icons/bi'
-import Invitacion from '../../Invitacion'
+import Invitacion from '../../../Invitacion'
+
 
 export default function Page() {
   return (
