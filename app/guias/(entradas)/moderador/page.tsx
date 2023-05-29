@@ -183,6 +183,19 @@ export default function Page() {
               </tr>
             </tbody>
           </table>
+          <div className="col-span-12">
+            <Parrafo className="text-noche-100">
+              Y recuerda que para tratar temas relacionados a la moderación del servidor de Discord de Insomnia, tienes disponible el canal
+              <span className="bg-ocaso-400/40 px-2 py-1 rounded-full text-sm mx-1">
+                <a
+                  href="https://discord.com/channels/794809684905033768/1054300454756028436"
+                  target="_blank"
+                >
+                  # ⚔・chat-mods
+                </a>
+              </span>
+            </Parrafo>
+          </div>
         </>
       </Midcol>
       <Sidecontent />

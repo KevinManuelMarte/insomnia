@@ -28,7 +28,7 @@ export default function Page() {
           <MdOutlineColorLens />
         </Tarjeta>
         <Tarjeta
-          enlace=""
+          enlace="/guias/anfitrion"
           className="lg:col-span-4 md:col-span-4 col-span-12"
           titulo="Anfitrión"
           subtitulo="1 cupo disponibles"
@@ -37,7 +37,7 @@ export default function Page() {
           <BiMicrophone />
         </Tarjeta>
         <Tarjeta
-          enlace=""
+          enlace="/guias/desarrollador"
           className="lg:col-span-4 md:col-span-4 col-span-12"
           titulo="Desarrollador"
           subtitulo="Sin cupos disponibles"
@@ -46,7 +46,7 @@ export default function Page() {
           <AiOutlineCode />
         </Tarjeta>
         <Tarjeta
-          enlace=""
+          enlace="/guias/publicista"
           className="lg:col-span-4 md:col-span-4 col-span-12"
           titulo="Publicista"
           subtitulo="2 cupos disponibles"
