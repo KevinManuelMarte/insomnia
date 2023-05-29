@@ -18,7 +18,7 @@ export default function Invitacion(props) {
                   Insomnia 🌔
                 </h1>
                 <p className='text-neutral-300/90 flex items-center'>
-                  <BsPerson className='mr-1' /> 87 miembros
+                  <BsPerson className='mr-1' /> 120 miembros
                 </p>
               </div>
               <div>

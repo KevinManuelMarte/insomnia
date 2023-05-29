@@ -26,7 +26,7 @@ export default function Home() {
             integrada.
           </p>
         </div>
-        <div className="md:col-span-6 col-span-12 md:col-start-4">
+        <div className="2xl:col-span-4  md:col-span-6 col-span-12 2xl:col-start-5 md:col-start-4">
           <Invitacion subtitulo="Únete a nosotros y ayudanos a crear una mejor comunidad!" />
         </div>
       </div>
