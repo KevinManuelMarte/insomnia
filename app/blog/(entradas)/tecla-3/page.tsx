@@ -11,12 +11,12 @@ import { BiWorld } from "react-icons/bi";
 import Invitacion from "../../../Invitacion";
 import { Parrafo, Subtitulo, Titulo1, Titulo2 } from "../../../Mini";
 import Sidecontent from "./Sidecontent";
-import Container from "@/components/treecols/Container";
+import Midcol from "@/components/treecols/Midcol";
 
 export default function Page() {
   return (
     <>
-      <Container>
+      <Midcol>
         <>
           <div className="col-span-12">
             <Titulo1 className="text-yellow-300 text-center">
@@ -126,7 +126,7 @@ export default function Page() {
             <Invitacion subtitulo="¡Únete a Insomnia para disfrutar de este evento!" />
           </div>
         </>
-      </Container>
+      </Midcol>
       <Sidecontent />
     </>
   );
