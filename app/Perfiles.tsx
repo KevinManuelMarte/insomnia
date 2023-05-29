@@ -66,6 +66,7 @@ export const perfiles = [
     distinciones: [
       { distincion: 9 },
       { distincion: 12 },
+      { distincion: 10 },
       { distincion: 'T2' },
     ],
     youtube: 'https://www.youtube.com/@caianthegamer',
