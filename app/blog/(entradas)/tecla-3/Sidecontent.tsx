@@ -17,7 +17,7 @@ export default function Sidecontent() {
         </div>
         {encargados.map(perfil => {
           return (
-            <div className="col-span-10">
+            <div className="col-span-10" key={perfil.usuario_simple}>
               <LiPerfil 
                 img_src={perfil.img_src}
                 usuario={perfil.usuario}

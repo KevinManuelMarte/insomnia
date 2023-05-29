@@ -17,7 +17,7 @@ export default function Sidecontent(): JSX.Element {
         </div>
         {personal.map((perfil) => {
           return (
-            <div className="col-span-10">
+            <div className="col-span-10" key={perfil.usuario_simple}>
               <LiPerfil
                 perfil={perfil.usuario}
                 img_src={perfil.img_src}
