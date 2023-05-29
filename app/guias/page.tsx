@@ -13,7 +13,7 @@ export default function Page() {
           enlace="/guias/moderador"
           className="lg:col-span-4 md:col-span-4 col-span-12"
           titulo="Moderador"
-          subtitulo="Sin cupos disponibles"
+          subtitulo="2 cupos disponibles"
           desc="Aquellos miembros del personal que se dedican a regular y moderar la actividad en el servidor."
         >
           <BsShield />
