@@ -10,6 +10,17 @@ export default function Page() {
         <div className="md:col-span-4 col-span-12">
           <Tarjeta
             className="mb-4"
+            enlace="/blog/tecla-3-avance"
+            titulo="Tecla 3 - Avance"
+            subtitulo="Publicacion activa"
+            desc="Presentamos algunas zonas del vestíbulo de Tecla 3"
+          >
+            <HiOutlineCube />
+          </Tarjeta>
+        </div>
+        <div className="md:col-span-4 col-span-12">
+          <Tarjeta
+            className="mb-4"
             enlace="/blog/tecla-3"
             titulo="Tecla 3"
             subtitulo="Publicación activa"
