@@ -2,7 +2,7 @@ export function Titulo1(props) {
   return (
     <h1 className={`
     ${props.className}
-    lg:text-4xl md:text-2xl text-xl font-semibold pb-2`}>
+    lg:text-4xl md:text-2xl text-xl font-semibold`}>
       {props.children}
     </h1>
   )
@@ -12,7 +12,7 @@ export function Titulo2(props) {
   return (
     <h2 className={`
     ${props.className}
-    lg:text-2xl md:text-xl text-lg font-semibold`}>
+    lg:text-3xl md:text-xl text-lg font-semibold`}>
       {props.children}
     </h2>
   )

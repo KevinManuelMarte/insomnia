@@ -134,26 +134,6 @@ export const perfiles = [
     github: 'https://github.com/T0kyoB0y'
   },
   {
-    img_src: 'https://cdn.discordapp.com/avatars/769856990087348224/adf75513a80819a826807d7f0ade8010.png?size=1024',
-    usuario: 'Sxnchez',
-    usuario_simple: 'Sxnchez',
-    cargo: 'Moderador experto',
-    distincion: '4',
-    rareza: 'e',
-    desc: 'Viene a ayudar.',
-    discord: 'Sxnchez#6541',
-    nacionalidad: 'Española',
-    edad: '17',
-    distinciones: [
-      { distincion: '4' },
-      { distincion: '12' },
-    ],
-    youtube: '',
-    reddit: '',
-    twitter: '',
-    github: ''
-  },
-  {
     img_src: 'https://cdn.discordapp.com/avatars/1091735302072189049/a1177ef86613c896b51a4905c798ab75.png?size=1024',
     usuario: '𝔽𝕝𝕦𝕫𝕜𝕪',
     usuario_simple: 'Fluzky',
