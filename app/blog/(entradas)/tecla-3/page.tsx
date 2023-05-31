@@ -9,7 +9,7 @@ import { RxCube } from "react-icons/rx";
 import { TbBucket } from "react-icons/tb";
 import { BiWorld } from "react-icons/bi";
 import Invitacion from "../../../Invitacion";
-import { Parrafo, Subtitulo, Titulo1, Titulo2 } from "../../../Mini";
+import { Parrafo, Titulo1, Titulo2 } from "../../../Mini";
 import Sidecontent from "./Sidecontent";
 import Midcol from "@/components/treecols/Midcol";
 
