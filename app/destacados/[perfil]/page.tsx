@@ -89,11 +89,11 @@ export default function Page({ params }) {
                       <Titulo2 className="text-noche-100 text-center">
                         Redes sociales
                       </Titulo2>
-                      <div className="flex justify-evenly pt-8">
+                      <div className="flex justify-evenly py-8">
                         {perfil.youtube
                           ? (
                             <a
-                              className="bg-noche-500/50 text-noche-100 hover:bg-red-500 hover:text-white text-3xl p-4 rounded-full duration-200"
+                              className="bg-noche-500/50 text-noche-100 hover:bg-red-500 hover:text-white md:text-3xl text-xl lg:p-4 p-2 rounded-full duration-200"
                               href={perfil.youtube}
                               target="blank"
                             >
@@ -104,7 +104,7 @@ export default function Page({ params }) {
                         {perfil.reddit
                           ? (
                             <a
-                              className="bg-noche-500/50 text-noche-100 hover:bg-orange-500 hover:text-white text-3xl p-4 rounded-full duration-200"
+                              className="bg-noche-500/50 text-noche-100 hover:bg-orange-500 hover:text-white md:text-3xl text-xl lg:p-4 p-2 rounded-full duration-200"
                               href={perfil.reddit}
                               target="blank"
                             >
@@ -115,7 +115,7 @@ export default function Page({ params }) {
                         {perfil.twitter
                           ? (
                             <a
-                              className="bg-noche-500/50 text-noche-100 hover:bg-blue-500 hover:text-white text-3xl p-4 rounded-full duration-200"
+                              className="bg-noche-500/50 text-noche-100 hover:bg-blue-500 hover:text-white md:text-3xl text-xl lg:p-4 p-2 rounded-full duration-200"
                               href={perfil.twitter}
                               target="blank"
                             >
@@ -126,7 +126,7 @@ export default function Page({ params }) {
                         {perfil.github
                           ? (
                             <a
-                              className="bg-noche-500/50 text-noche-100 hover:bg-slate-900 hover:text-white text-3xl p-4 rounded-full duration-200"
+                              className="bg-noche-500/50 text-noche-100 hover:bg-slate-900 hover:text-white md:text-3xl text-xl lg:p-4 p-2 rounded-full duration-200"
                               href={perfil.github}
                               target="blank"
                             >
