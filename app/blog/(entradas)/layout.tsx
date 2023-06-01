@@ -1,3 +1,5 @@
+import Relevant from "@/components/treecols/Relevant"
+
 export default function Layout({
   children,
 } : {
@@ -5,7 +7,9 @@ export default function Layout({
 }) {
   return (
     <div className="grid grid-cols-12 gap-2 px-4">
-      <div className="2xl:col-span-2 xl:col-span-3 lg:col-span-3 lg:block hidden gap-4"></div>
+      <div className="2xl:col-span-2 xl:col-span-3 lg:col-span-3 lg:block hidden gap-4">
+        <Relevant />
+      </div>
       {children}
     </div>
   )
