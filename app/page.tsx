@@ -1,6 +1,4 @@
-import Image from "next/image";
 import Link from "next/link";
-import Invitacion from "./Invitacion";
 import Container from "@/components/Container";
 
 export default function Home() {
@@ -8,7 +6,7 @@ export default function Home() {
     <Container>
       <div className="grid grid-cols-12 gap-4">
         <div className="col-span-12">
-          <h3 className="text-noche-300 font-semibold lg:text-2xl md:text-xl text-lg text-center pt-2 pb-4">
+          <h3 className="text-teal-300 font-semibold lg:text-2xl md:text-xl text-lg text-center pt-2 pb-4">
             <Link href="/blog/se-busca-personal">
               Se busca personal!
             </Link>
@@ -20,14 +18,18 @@ export default function Home() {
           </h1>
         </div>
         <div className="md:col-span-8 col-span-12 md:col-start-3">
-          <p className="lg:text-2xl md:text-xl text-base text-noche-300 text-center pb-4">
+          <p className="lg:text-2xl md:text-xl text-base text-noche-100 text-center pb-4">
             El servidor de Insomnia es una comunidad virtual de discord en la
             cual muchos gamers se reunen para convivir de manera pacifica e
             integrada.
           </p>
         </div>
-        <div className="2xl:col-span-4  md:col-span-6 col-span-12 2xl:col-start-5 md:col-start-4">
-          <Invitacion subtitulo="Únete a nosotros y ayudanos a crear una mejor comunidad!" />
+        <div className="col-span-12">
+          <div className="flex justify-center">
+            <a className="px-6 py-2 rounded-full border-t-2 border-noche-300/50 bg-gradient-to-r from-ocaso-500 to-noche-500 text-noche-100 text-xl font-bold hover:px-8 hover:py-3 hover:text-2xl hover:outline hover:outline-4 hover:outline-offset-2 hover:outline-ocaso-500/80 duration-200" href="/">
+              Únete
+            </a>
+          </div>
         </div>
       </div>
     </Container>
