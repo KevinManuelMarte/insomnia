@@ -4,8 +4,7 @@ import Link from "next/link";
 
 export default function Relevant() {
   return (
-    <div className="2xl:col-span-2 xl:col-span-3 lg:col-span-3 lg:block hidden">
-      <div className="bg-ex-100 rounded-xl p-4">
+      <div className="bg-noche-700/20 rounded-xl p-4">
         <Link href="/blog/tecla-3-avance/">
           <Subtitulo className="text-yellow-300 font-semibold">
             Relevante: Tecla 3 - Avance
@@ -20,6 +19,5 @@ export default function Relevant() {
           />
         </Link>
       </div>
-    </div>
   );
 }

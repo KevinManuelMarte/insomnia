@@ -7,10 +7,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html className='bg-gradient-to-b from-noche-900 to-ocaso-900 bg-fixed' lang="en">
-      <body className='backdrop-blur-xl'>
+    <html className="bg-[url('/stars.png')] bg-cover bg-fixed bg-norepeat" lang="en">
+      <body className='backdrop-blur-xl bg-noche-900/10 min-h-screen'>
         <NavBar/>
-        <div className="my-8">
+        <div className="py-8 max-w-screen-2xl mx-auto">
           {children}
         </div>
       </body>
