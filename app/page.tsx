@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Container from "@/components/Container";
+import Boton from "@/components/Boton";
 
 export default function Home() {
   return (
@@ -26,9 +27,9 @@ export default function Home() {
         </div>
         <div className="col-span-12">
           <div className="flex justify-center">
-            <a className="px-6 py-2 rounded-full border-t-2 border-noche-300/50 bg-gradient-to-r from-ocaso-500 to-noche-500 text-noche-100 text-xl font-bold hover:px-8 hover:py-3 hover:text-2xl hover:outline hover:outline-4 hover:outline-offset-2 hover:outline-ocaso-500/80 duration-200" href="/">
-              Únete
-            </a>
+            <Boton color='noche' href="/" text="s">
+              <p className="text-xl font-semibold">Únete</p>
+            </Boton>
           </div>
         </div>
       </div>
