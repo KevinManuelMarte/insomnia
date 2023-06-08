@@ -4,6 +4,7 @@ import Image from "next/image";
 import { BsGithub, BsReddit, BsTwitter, BsYoutube } from "react-icons/bs";
 import { Lista, Parrafo, Subtitulo, Titulo1, Titulo2 } from "../../Mini";
 import Container from "@/components/Container";
+import Boton from "@/components/Boton";
 
 export default function Page({ params }) {
   const parametros = [params];
@@ -92,46 +93,30 @@ export default function Page({ params }) {
                       <div className="flex justify-evenly py-8">
                         {perfil.youtube
                           ? (
-                            <a
-                              className="bg-noche-500/50 text-noche-100 hover:bg-red-500 hover:text-white md:text-3xl text-xl lg:p-4 p-2 rounded-full duration-200"
-                              href={perfil.youtube}
-                              target="blank"
-                            >
-                              <BsYoutube />
-                            </a>
+                            <Boton color="red" href={perfil.youtube} text="n">
+                              <BsYoutube className="text-2xl" />
+                            </Boton>
                           )
                           : null}
                         {perfil.reddit
                           ? (
-                            <a
-                              className="bg-noche-500/50 text-noche-100 hover:bg-orange-500 hover:text-white md:text-3xl text-xl lg:p-4 p-2 rounded-full duration-200"
-                              href={perfil.reddit}
-                              target="blank"
-                            >
-                              <BsReddit />
-                            </a>
+                            <Boton color="orange" href={perfil.reddit} text="n">
+                              <BsReddit className="text-2xl" />
+                            </Boton>
                           )
                           : null}
                         {perfil.twitter
                           ? (
-                            <a
-                              className="bg-noche-500/50 text-noche-100 hover:bg-blue-500 hover:text-white md:text-3xl text-xl lg:p-4 p-2 rounded-full duration-200"
-                              href={perfil.twitter}
-                              target="blank"
-                            >
-                              <BsTwitter />
-                            </a>
+                            <Boton color='sky' href={perfil.twitter} text='n'>
+                              <BsTwitter className="text-2xl" />
+                            </Boton>
                           )
                           : null}
                         {perfil.github
                           ? (
-                            <a
-                              className="bg-noche-500/50 text-noche-100 hover:bg-slate-900 hover:text-white md:text-3xl text-xl lg:p-4 p-2 rounded-full duration-200"
-                              href={perfil.github}
-                              target="blank"
-                            >
-                              <BsGithub />
-                            </a>
+                           <Boton color='slate' href={perfil.github} text='n'>
+                              <BsGithub className="text-2xl"/>
+                            </Boton>
                           )
                           : null}
                       </div>
