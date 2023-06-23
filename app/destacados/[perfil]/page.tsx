@@ -19,11 +19,11 @@ export default function Page({ params }) {
         {param.map((perfil) => {
           return (
             <div
-              className="xl:p-16 lg:p-8 md:p-4 p-2 bg-noche-700/20 rounded-lg"
+              className="xl:p-16 lg:p-8 p-4 bg-noche-700/20 rounded-lg"
               key={perfil.usuario}
             >
-              <div className="grid grid-cols-12 gap-4">
-                <div className="md:col-span-10 col-span-12">
+              <div className="grid grid-cols-12 gap-4 items-center">
+                <div className="md:col-span-10 col-span-10">
                   <div className="flex flex-wrap items-center gap-2">
                     <Titulo1 className="text-noche-100">
                       {perfil.usuario}
@@ -37,7 +37,7 @@ export default function Page({ params }) {
                     {perfil.cargo}
                   </Subtitulo>
                 </div>
-                <div className="md:col-span-2 col-span-12  md:row-span-2">
+                <div className="md:col-span-2 col-span-2  md:row-span-2">
                   <Image
                     className="rounded-lg"
                     src={perfil.img_src}

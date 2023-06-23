@@ -10,9 +10,7 @@ export default function Page() {
           return (
             <Tarjeta
               key={perfil.usuario_simple}
-              className={(idx === 0) || (idx === 2)
-                ? `row-span-1`
-                : `row-span-2`}
+              className={`lg:col-span-1 col-span-3 ${idx === 0 || idx === 2 ? `row-span-1` : `row-span-2`}`}
               enlace={`/destacados/${perfil.usuario_simple}`}
               titulo={perfil.usuario}
               distincion={perfil.distincion}
